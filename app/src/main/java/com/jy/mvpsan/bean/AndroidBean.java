@@ -497,10 +497,6 @@ public class AndroidBean {
             }
 
             public static class TagsBean {
-                /**
-                 * name : 项目
-                 * url : /project/list/1?cid=294
-                 */
 
                 private String name;
                 private String url;

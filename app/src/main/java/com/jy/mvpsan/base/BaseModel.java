@@ -24,4 +24,10 @@ public class BaseModel {
         }
         mCompositeDisposable.add(d);
     }
+
+    public void removeDisposable(Disposable disposable) {
+        if (mCompositeDisposable != null){
+            mCompositeDisposable.remove(disposable);
+        }
+    }
 }

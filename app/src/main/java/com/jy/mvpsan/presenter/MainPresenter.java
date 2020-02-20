@@ -17,7 +17,7 @@ public class MainPresenter extends BasePresenter<MainView>{
     protected MainModel mMainModel;
 
     public void getData() {
-        mMainModel.getData(new ResultCallBack(){
+        mMainModel.getData(new ResultCallBack<AndroidBean>(){
 
             @Override
             public void onNextData(AndroidBean bean) {

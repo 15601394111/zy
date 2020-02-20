@@ -10,6 +10,7 @@ import retrofit2.http.GET;
  */
 
 public interface ApiService {
+    String sUrl = "https://www.wanandroid.com/";
     @GET("project/list/0/json")
     Observable<AndroidBean>getData();
 }
